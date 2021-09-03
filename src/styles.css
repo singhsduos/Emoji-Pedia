@@ -144,3 +144,16 @@ h3 {
   color: cyan;
 }
 
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+
+@media screen and (max-width: 460px) {
+#divEmoji {
+  font-size: 2rem;
+}
+
+}
