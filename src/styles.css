@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap");
+
+/*
+ ______________________________________________
+|                                              |
+|        DEFAULT BODY AND ROOT TAG CSS         |
+|______________________________________________|
+*/
+
+:root {
+  --dark-shade: #2b2d42;
+}
+
+body {
+  background: cyan;
+  font-family: "Dancing Script", cursive;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|              UTILITIES CLASS                 |
+|______________________________________________|
+*/
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|             HEADER CLASS                     |
+|______________________________________________|
+*/
+
+#h1 {
+  font-size: 2rem;
+  font-family: "Comfortaa", cursive;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|             INPUT AREA CSS                   |
+|______________________________________________|
+*/
+
+input {
+  width: 250px;
+  height: 50px;
+}
+
+#h2 {
+  font-family: "Comfortaa", cursive;
+  max-width: 80%;
+  width: 500px;
+  margin: 2rem auto;
+}
+
+#input {
+  padding: 0em 1em;
+  font-size: 1em;
+  font-family: "Comfortaa", cursive;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+#space {
+  margin: 3rem;
+}
+
+h3 {
+  font-family: "Comfortaa", cursive;
+  margin-top: -1rem;
+}
+
+#divEmoji {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 2rem;
+  max-width: 80%;
+  width: 500px;
+  margin: 2rem auto;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|             FOOTER SECTION CSS               |
+|______________________________________________|
+*/
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  opacity: 90%;
+  justify-content: space-evenly;
+  background: white;
+  color: cyan;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  margin: 0em 1em;
+}
+
+.socialMedia {
+  margin-top: 1em;
+}
+.text {
+  margin-bottom: 0.5em;
+}
+
+.copyText {
+  margin-top: 0.5em;
+}
+
+.socialMedia a {
+  margin: 0.5em;
+  /* padding: 0.5rem; */
+}
+
+.socialMedia i {
+  color: cyan;
+}
+
