@@ -585,7 +585,7 @@ export default function App() {
 
           <div className="socialMedia">
             <a
-              href="https://github.com/singhsduos/Minions-Speak-App"
+              href="https://github.com/singhsduos/Emoji-Pedia"
               target="_blank"
               rel="noopener noreferrer"
             >
