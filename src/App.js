@@ -10,7 +10,7 @@ var preExistingEmoji = {
   "💋": "Kiss Mark",
   "👋": "Waving Hand",
   "👌": "OK Hand",
-  "🤏": "Pinching Hand",
+  "🤟": "Love-You Gesture",
   "✌️": " Victory Hand",
   "🍺": "Beer",
   "🍣": "Sushi",
