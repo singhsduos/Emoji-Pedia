@@ -18,9 +18,13 @@ A Emoji-Pedia app built using ReactJS that can tell the meanings of emojis liste
 
 
 
-![Screenshot_20210903_183944](https://user-images.githubusercontent.com/32032008/132011946-2969ed8b-ec3e-431b-b70a-a22abc885a9f.png)
-![Screenshot_20210903_183924](https://user-images.githubusercontent.com/32032008/132011960-9ae0ec21-32a3-4941-ab73-1b91d48f0564.png)
+![Emoji-Pedia-1](https://user-images.githubusercontent.com/32032008/132011946-2969ed8b-ec3e-431b-b70a-a22abc885a9f.png)
+![Emoji-Pedia-2](https://user-images.githubusercontent.com/32032008/132011960-9ae0ec21-32a3-4941-ab73-1b91d48f0564.png)
 
+
+## Demo-video
+
+https://user-images.githubusercontent.com/32032008/132014007-b12ae610-905a-4b4e-ab1d-e993f5f5aa43.mp4
 
 
 
