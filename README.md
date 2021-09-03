@@ -5,7 +5,7 @@ A Emoji-Pedia app built using ReactJS that can tell the meanings of emojis liste
 
 
 ## Things I learend
-1. Working with ReactS
+1. Working with ReactJS
 2. JSX
 
 
