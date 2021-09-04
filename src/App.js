@@ -532,11 +532,14 @@ export default function App() {
   function emojiInput(event) {
     var userInput = event.target.value;
     var objectKeyData;
-    if (userInput === "") {
+    if (userInput in emojiDictionary) {
+
+      objectKeyData = emojiDictionary[userInput];
+
+    }
+   else if (userInput === "") {
       objectKeyData =
         "Enter some emojis or click from below to know their meanings";
-    } else if (userInput in emojiDictionary) {
-      objectKeyData = emojiDictionary[userInput];
     } else {
       objectKeyData = "Currently we don't have this in our database.";
     }
