@@ -563,7 +563,7 @@ export default function App() {
       />
       <h2 id="h2">{emoji}</h2>
       <div id="space"></div>
-      <h3>Some emojis are avilable now </h3>
+      <h3>Or click some emojis below 👇 </h3>
       <div id="divEmoji">
         {dictionaryArray.map(function (data) {
           return (
