@@ -555,7 +555,7 @@ export default function App() {
       <h1 id="h1">Emoji-Pedia</h1>
       <input
         id="input"
-        placeholder="Enter your emoji here..."
+        placeholder="Type your emoji here also..."
         onChange={emojiInput}
       />
       <h2 id="h2">{emoji}</h2>
