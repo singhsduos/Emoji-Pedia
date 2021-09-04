@@ -532,15 +532,16 @@ export default function App() {
   function emojiInput(event) {
     var userInput = event.target.value;
     var objectKeyData;
-    if (userInput in emojiDictionary) {
+     if (userInput === "") {
+      objectKeyData =
+        "Enter some emojis or click from below to know their meanings";
+    } else if (userInput in emojiDictionary) {
 
       objectKeyData = emojiDictionary[userInput];
 
     }
-   else if (userInput === "") {
-      objectKeyData =
-        "Enter some emojis or click from below to know their meanings";
-    } else {
+    
+else {
       objectKeyData = "Currently we don't have this in our database.";
     }
     emojiData(objectKeyData);
@@ -563,7 +564,7 @@ export default function App() {
       />
       <h2 id="h2">{emoji}</h2>
       <div id="space"></div>
-      <h3>Or click some emojis below 👇 </h3>
+      <h3>Or click some emojis below  </h3>
       <div id="divEmoji">
         {dictionaryArray.map(function (data) {
           return (
